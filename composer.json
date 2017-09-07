@@ -1,0 +1,25 @@
+{
+  "name": "typo3-ter/cdsrc-baseurl",
+  "type": "typo3-cms-extension",
+  "description": "Add automaticly base url based on current domain",
+  "authors": [
+    {
+      "name": "Matthias Toscanelli",
+      "email": "m.toscanelli@code-source.ch",
+      "company": "Code-Source",
+      "username": "mtoscanelli"
+    }
+  ],
+  "require": {
+    "typo3/cms-core": ">= 7.6.0, <= 8.7.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "CDSRC\\CdsrcBaseurl\\": "Classes"
+    }
+  },
+  "replace": {
+    "cdsrc_baseurl": "self.version",
+    "typo3-ter/cdsrc_baseurl": "self.version"
+  }
+}

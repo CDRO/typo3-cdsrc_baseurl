@@ -14,7 +14,7 @@ $EM_CONF[$_EXTKEY] = [
     'title' => 'Automatic base url',
     'description' => 'Add automaticly base url based on current domain',
     'category' => 'fe',
-    'version' => '4.0.0',
+    'version' => '4.1.0',
     'state' => 'stable',
     'uploadfolder' => true,
     'createDirs' => '',
@@ -24,7 +24,7 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 'Code-Source',
     'constraints' => [
         'depends' => [
-            'typo3' => '7.6.0-8.4.99',
+            'typo3' => '7.6.0-8.7.99',
         ],
         'conflicts' => [],
         'suggests' => [],

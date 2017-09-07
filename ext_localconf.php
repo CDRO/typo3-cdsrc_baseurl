@@ -6,4 +6,5 @@ if (!defined('TYPO3_MODE')) {
 
 
 // Add hook to configuration post processus
-$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['tslib/class.tslib_fe.php']['configArrayPostProc'][$_EXTKEY] = 'CDSRC\CdsrcBaseurl\Hook\BaseUrlHook->execute';
+$GLOBALS['TYPO3_CONF_VARS']['SC_OPTIONS']['tslib/class.tslib_fe.php']['configArrayPostProc'][$_EXTKEY] =
+    \CDSRC\CdsrcBaseurl\Hook\BaseUrlHook::class . '->execute';
